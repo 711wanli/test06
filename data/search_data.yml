@@ -1,0 +1,32 @@
+test_search:
+  test_search_001:
+    case_name: test_search_001
+    key_word: 1
+  test_search_002:
+    case_name: test_search_002
+    key_word: Hello
+  test_search_003:
+    case_name: test_search_003
+    key_word: 中文
+test_login:
+  test_login_001:
+    case_name: test_login_001
+    username: xiaoming
+    password: xiaoming123
+  test_login_002:
+    case_name: test_login_002
+    username: xiaohong
+    password: xiaoong
+
+
+
+#test_search1:
+#  -
+#    - xiaoming
+#    - xiaoming123
+#  -
+#    - xiaohong
+#    - xiaohong
+
+
+#[("1", "2"), ("3", "4")]
